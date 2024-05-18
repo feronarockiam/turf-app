@@ -24,7 +24,7 @@ const sendOTPEmail = async (to, otp) => {
                 <p>Please enter this OTP in the designated field on our website to complete the password reset process.</p>
                 <p>If you did not initiate this request, please ignore this email or contact us directly.</p>
                 <hr style="border-top: 1px solid #ddd; margin: 20px 0;">
-                <p style="text-align: center; color: #999;"><small>Thank you,<br>Our Team</small></p>
+                <p style="text-align: center; color: #999;"><small>Thank you,<br>Team Turf</small></p>
             </div>
         `,
     };
