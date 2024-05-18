@@ -20,7 +20,7 @@ const sendOTPEmail = async (to, otp) => {
                 <p style="color: #666;">We received a request for Signup.</p>
                 <hr style="border-top: 1px solid #ddd; margin: 20px 0;">
                 <p><strong>Your One-Time Password:</strong></p>
-                <p style="font-size: 24px; font-weight: bold; color: #007BFF;">${otp}</p>
+                <p style="font-size: 24px; font-weight: italic; color: #007BFF;">${otp}</p>
                 <p>Please enter this OTP in the designated field on our website to complete the password reset process.</p>
                 <p>If you did not initiate this request, please ignore this email or contact us directly.</p>
                 <hr style="border-top: 1px solid #ddd; margin: 20px 0;">
